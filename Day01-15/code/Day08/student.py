@@ -2,7 +2,7 @@
 定义和使用学生类
 
 Version: 0.1
-Author: 骆昊
+Author: 团子
 Date: 2018-03-08
 """
 
@@ -32,7 +32,7 @@ class Student(object):
 
 
 def main():
-    stu1 = Student('骆昊', 38)
+    stu1 = Student('团子', 38)
     stu1.study('Python程序设计')
     stu1.watch_av()
     stu2 = Student('王大锤', 15)

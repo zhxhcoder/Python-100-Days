@@ -5,7 +5,7 @@ f(x) =  x + 2   (-1 <= x <= 1)
         5x + 3  (x < -1)
 
 Version: 0.1
-Author: 骆昊
+Author: 团子
 Date: 2018-02-28
 """
 

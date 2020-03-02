@@ -2,7 +2,7 @@
 检查变量的类型
 
 Version: 0.1
-Author: 骆昊
+Author: 团子
 Date: 2018-02-27
 """
 
