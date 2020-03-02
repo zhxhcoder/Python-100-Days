@@ -34,7 +34,7 @@ def create_package_center(consumer, max_packages):
 
 def main():
     print(create_delivery_man.__name__)
-    dm = create_delivery_man('王大锤', 7)
+    dm = create_delivery_man('嘟子', 7)
     create_package_center(dm, 25)
 
 

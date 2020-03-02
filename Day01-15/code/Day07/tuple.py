@@ -20,9 +20,9 @@ def main():
     for member in t:
         print(member)
     # 重新给元组赋值
-    # t[0] = '王大锤'      # TypeError
+    # t[0] = '嘟子'      # TypeError
     # 变量t重新引用了新的元组 原来的元组被垃圾回收
-    t = ('王大锤', 20, True, '云南昆明')
+    t = ('嘟子', 20, True, '云南昆明')
     print(t)
     # 元组和列表的转换
     person = list(t)

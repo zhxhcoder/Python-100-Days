@@ -28,14 +28,14 @@ class Student(object):
         if self.age < 18:
             print('%s只能观看《熊出没》.' % self.name)
         else:
-            print('%s正在观看岛国大电影.' % self.name)
+            print('%s正在观看大电影.' % self.name)
 
 
 def main():
-    stu1 = Student('团子', 38)
+    stu1 = Student('团子', 15)
     stu1.study('Python程序设计')
     stu1.watch_av()
-    stu2 = Student('王大锤', 15)
+    stu2 = Student('嘟子', 16)
     stu2.study('思想品德')
     stu2.watch_av()
 

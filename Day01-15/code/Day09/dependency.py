@@ -72,7 +72,7 @@ if __name__ == '__main__':
     stu1 = Student('团子', 38)
     stu1.study('Python程序设计')
     stu1.watch_av()
-    stu2 = Student('王大锤', 15)
+    stu2 = Student('嘟子', 15)
     stu2.study('思想品德')
     stu2.watch_av()
     car = Car('QQ', 120)

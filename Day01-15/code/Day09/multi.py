@@ -58,7 +58,7 @@ class Son(Father, Monk, Musician):
         Musician.__init__(self, name)
 
 
-son = Son('王大锤')
+son = Son('嘟子')
 son.gamble()
 # 调用继承自Father的eat方法
 son.eat()

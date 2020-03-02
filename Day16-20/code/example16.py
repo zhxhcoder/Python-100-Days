@@ -44,8 +44,8 @@ class School():
 
 def main():
     # students = set()
-    # students.add(Student(1001, '王大锤'))
-    # students.add(Student(1001, '王大锤'))
+    # students.add(Student(1001, '嘟子'))
+    # students.add(Student(1001, '嘟子'))
     # students.add(Student(1001, '白元芳'))
     # print(len(students))
     # print(students)
@@ -54,7 +54,7 @@ def main():
     # stu.birth = '1980-11-28'
     print(stu.name, stu.birth)
     school = School('千锋教育')
-    school[1001] = Student(1001, '王大锤')
+    school[1001] = Student(1001, '嘟子')
     school[1002] = Student(1002, '白元芳')
     school[1003] = Student(1003, '白洁')
     print(school[1002])
