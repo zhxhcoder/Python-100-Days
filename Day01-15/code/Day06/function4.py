@@ -33,6 +33,8 @@ print(strtime)
 mydate = time.strptime('2018-1-1', '%Y-%m-%d')
 print(mydate)
 
+f = open("/Users/xhzh/hello.py", "w+")
+print(f.name)
 shutil.copy('/Users/xhzh/hello.py', '/Users/xhzh/Desktop/first.py')
 os.system('ls -l')
 os.chdir('/Users/xhzh')
