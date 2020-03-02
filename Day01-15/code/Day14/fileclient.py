@@ -19,7 +19,7 @@ def main():
     my_dict = loads(in_data.decode('utf-8'))
     filename = my_dict['filename']
     filedata = my_dict['filedata'].encode('utf-8')
-    with open('/Users/Hao/' + filename, 'wb') as f:
+    with open('/Users/xhzh/' + filename, 'wb') as f:
         # 将base64格式的数据解码成二进制数据并写入文件
         f.write(b64decode(filedata))
     print('图片已保存.')

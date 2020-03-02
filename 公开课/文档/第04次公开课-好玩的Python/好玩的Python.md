@@ -153,7 +153,7 @@ ipython最直观的优点：
    lucky_friends = random.sample(friends_list[1:], 5) 
    for friend in lucky_friends:
        username = friend['UserName']
-       itchat.send_video('/Users/Hao/Desktop/my_test_video.mp4', toUserName=username)
+       itchat.send_video('/Users/xhzh/Desktop/my_test_video.mp4', toUserName=username)
    ```
 
 利用itchat还能做很多事情，比如有好友给自己发了消息又撤回了，如果想查看这些被撤回的消息，itchat就可以做到（注册一个接收消息的钩子函数，请参考[CSDN上的一篇文章](<https://blog.csdn.net/enweitech/article/details/79585043>)）；再比如，有时候我们想知道某个好友有没有把我们删除或者拉入黑名单，也可以利用itchat封装的群聊功能，非好友和黑名单用户不会被拉入群聊，通过创建群聊函数的返回值就可以判定你和指定的人之间的关系。
