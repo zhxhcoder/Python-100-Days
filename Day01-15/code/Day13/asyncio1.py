@@ -18,7 +18,7 @@ import threading
 async def hello():
     print('%s: hello, world!' % threading.current_thread())
     # 休眠不会阻塞主线程因为使用了异步I/O操作
-    # 注意有yield from才会等待休眠操作执行完成
+    # 注意有await才会等待休眠操作执行完成
     await asyncio.sleep(2)
     # asyncio.sleep(1)
     # time.sleep(1)
